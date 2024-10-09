@@ -23,10 +23,10 @@ setenv serverip 192.168.1.1
 tftpboot openwrt-qualcommax-ipq50xx-glinet_gl-b3000-squashfs-nand-factory.ubi
 
 # Flash firmware to system 0
-flash rootfs
-setenv flag_try_sys1_failed 0
-setenv flag_boot_rootfs 0
-setenv flag_last_success 0
+flash rootfs \
+setenv flag_try_sys1_failed 0 \
+setenv flag_boot_rootfs 0 \
+setenv flag_last_success 0 \
 
 # Save everything
 saveenv
