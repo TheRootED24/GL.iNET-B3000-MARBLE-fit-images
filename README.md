@@ -26,7 +26,7 @@ tftpboot openwrt-qualcommax-ipq50xx-glinet_gl-b3000-squashfs-nand-factory.ubi
 flash rootfs \
 setenv flag_try_sys1_failed 0 \
 setenv flag_boot_rootfs 0 \
-setenv flag_last_success 0 \
+setenv flag_last_success 0
 
 # Save everything
 saveenv
